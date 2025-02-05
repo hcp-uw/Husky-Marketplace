@@ -2,7 +2,7 @@ import { Search, Home, Clock, Heart } from "lucide-react";
 
 export default function TopBar({ title }) {
   return (
-    <div className="fixed top-0 left-0 w-full bg-purple-500 bg-opacity-50 p-2 h-20 flex justify-between items-center shadow-md">
+    <div className="fixed top-0 left-0 w-full bg-white bg-opacity-50 p-2 h-20 flex justify-between items-center shadow-md">
 
       {/* Left Icons */}
       <div className="flex items-center space-x-4 px-4">
