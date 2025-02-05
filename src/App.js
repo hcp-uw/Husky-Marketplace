@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './Login'; // Adjust the import path based on your file structure
 import BorS from './BorS'; // Import the new page component
 import SignUp from './SignUp';
+import ProductDetail from "./ProductDetail"; // Import the ProductDetail component
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
         <Router>
             <Routes>
                 <Route path="/" element={<Login />} />
+                <Route path="/productDetail" element={<ProductDetail />} />
                 <Route path="/bors" element={<BorS />} />
                 <Route path="/signup" element={<SignUp />} /> {/* Add the SignUp route */}
             </Routes>

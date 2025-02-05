@@ -1,7 +1,6 @@
 import logo from './logo1.png';
 import React from 'react';
 
-import './SignUp.css';
 
 const SignUp = () => {
     return (
