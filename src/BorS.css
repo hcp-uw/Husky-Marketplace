@@ -1,68 +1,54 @@
-.background {
+.bor-s-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  height: 100vh;
-  background-color: #ffffff; /* White background */
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  background-color: #f0f0f0; /* Light background for contrast */
+  position: relative; /* Set position for absolute positioning of horizontal bar */
 }
 
-.logo {
-  width: 400px;
-  height: 300px;
-  margin-bottom: 150px;
+.h-shape {
+  display: flex;
+  justify-content: space-between; /* Space out the vertical parts */
+  align-items: center; /* Center vertical parts */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  position: relative; /* Set position for the horizontal part */
 }
 
-.rect_horiz {
-  width: 160px;
-  height: 340%;
-  color: #000000;
-  top: 30%;
-  left: 70px;
-}
-.bodyText {
-  margin-top: 20px;
-  bottom: 100px;
-  color: #fff; /* White text color */
-  text-align: left;
-  margin-top: 15px;
-}
-.bottomStuff {
-  width: 80%;
-  position: relative;
-  bottom: 0px;
-  text-align: center;
+.vertical {
+  width: 15%; /* Adjust width of the vertical rectangles to fill space */
+  height: 100%; /* Height of the vertical rectangles */
+  background-color: #6c63ff; /* Color of the rectangles */
+  opacity: 0.5; /* Opacity of the rectangles */
 }
 
-.input {
-  display: block;
-  width: 100%;
-  color: #fff; /* White text color */
-  background-color: #222; /* Dark background for input */
-  padding: 10px;
-  margin: 10px 0; /* Vertical margin for spacing between inputs */
-  border-radius: 5px;
-  border: none;
+.left {
+  margin-right: 10%; /* Space between left and right vertical rectangles */
 }
 
-.button {
-  color: #fff; /* White text color for Login button words*/
-  background-color: #6c63ff; /* Purple background for login button*/
-  width: 100%;
-  padding: 10px;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-  margin: 10px;
+.horizontalleft {
+  width: 55%; /* Width of the horizontal rectangle */
+  height: 20%; /* Height of the horizontal rectangle */
+  background-color: #6c63ff; /* Color of the rectangles */
+  opacity: 0.5; /* Opacity of the rectangles */
+  position: absolute; /* Position to allow for centering */
+  top: 50%; /* Position in the middle */
+  left: 20%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust to truly center the rectangle */
 }
-
-.footer {
-  color: #fff; /* White text color */
-  text-align: center;
-  margin-top: 10px;
+.horizontalright {
+  width: 55%; /* Width of the horizontal rectangle */
+  height: 20%; /* Height of the horizontal rectangle */
+  background-color: #6c63ff; /* Color of the rectangles */
+  opacity: 0.5; /* Opacity of the rectangles */
+  position: absolute; /* Position to allow for centering */
+  top: 50%; /* Position in the middle */
+  left: 80%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust to truly center the rectangle */
 }
-
-.link {
-  color: #6c63ff; /* Purple text color for links */
-  text-decoration: none;
+.buytext, .selltext{
+  font-size: 9rem; /* Large font size for the text */
+  color: #fff;
+  text-align: right/* Text color */
 }

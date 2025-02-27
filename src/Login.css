@@ -67,3 +67,13 @@
   color: #6c63ff; /* Purple text color for links */
   text-decoration: none;
 }
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.error-input {
+  border: 2px solid red !important;
+  background-color: #ffebeb; /* Light red background */
+}
