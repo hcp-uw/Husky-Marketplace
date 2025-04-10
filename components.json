@@ -1,0 +1,7 @@
+{
+  "components": "src/components/ui",
+  "aliases": {
+    "utils": "src/lib/utils"
+  }
+}
+
